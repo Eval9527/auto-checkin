@@ -4,7 +4,7 @@
 去 `config.js` 中添加 `token`
 
 ## `token` 获取方式：
-- mofish.com 登陆之后去 Local Storage 中获取 token
+- mo.fish 登陆之后去 Local Storage 中获取 token
 
 
 # 运行
@@ -18,5 +18,5 @@ node index.js
 ```
 
 ## TODO
-- [x] mofish 签到
+- [x] mo.fish 签到
 
