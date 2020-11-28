@@ -6,7 +6,7 @@ const common = require('./common')
 const getTime = common.getTime
 
 const MO_FISH_TOKEN = config.MO_FISH_TOKEN
-const MO_FISH_URL = `https://www.tophub.fun:8888/GetFishBall`
+const MO_FISH_URL = `https://api.tophub.fun/GetFishBall`
 
 class MoFish {
   constructor(token, url) {
