@@ -6,7 +6,7 @@
 ## 配置
 Fork 本项目
 
-在项目页面中 Settings —— Secrets 添加 MO_FISH_TOKEN、SERVER_J
+在项目页面中 Settings —— Secrets 点击 `New secret` 添加 MO_FISH_TOKEN、SERVER_J
 
 ## `token` 获取方式：
 ### MO_FISH_TOKEN 
@@ -18,9 +18,15 @@ Fork 本项目
 - server酱的 token
 - 去 [Server酱](http://sc.ftqq.com/?c=code) 获取 `SCKEY`
 
-## 运行方式
-1) commit 后会自动运行
-2) 默认每天 08:05 运行 `cron: '5 0 * * *'`
+## 运行
+### 启动 Actions
+   - 点击项目功能栏的 Action
+   - 点击绿色按钮进行激活
+
+### 自动运行
+启动 Actions 后，会自动运行，具体触发条件：
+   - commit 后会自动运行
+   - 默认每天 08:05 运行
 
 剩下的具体看 `.github/workflows/main.yml`
 
