@@ -18,7 +18,11 @@ Fork 本项目
 - server酱的 token
 - 去 [Server酱](http://sc.ftqq.com/?c=code) 获取 `SCKEY`
 
+## 运行方式
+1) commit 后会自动运行
+2) 默认每天 08:05 运行 `cron: '5 0 * * *'`
 
+剩下的具体看 `.github/workflows/main.yml`
 
 ## TODO
 - [x] mo.fish 签到
