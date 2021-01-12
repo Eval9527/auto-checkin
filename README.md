@@ -11,12 +11,12 @@ Fork 本项目
 ## `token` 获取方式：
 ### MO_FISH_TOKEN 
 - mo.fish 的 token
-- mo.fish 登陆之后去 Local Storage 中获取 token
+- 去 [鱼塘热榜](https://mo.fish/) 登陆之后去 Local Storage 中获取 token
 
 
 ### SERVER_J
-- server 酱的 token
-- 去 [Server 酱](http://sc.ftqq.com/?c=code) 获取 `SCKEY`
+- server酱的 token
+- 去 [Server酱](http://sc.ftqq.com/?c=code) 获取 `SCKEY`
 
 
 
