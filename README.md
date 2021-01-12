@@ -6,7 +6,7 @@
 ## 配置
 Fork 本项目
 
-去 Settings —— Secrets 添加 MO_FISH_TOKEN、SERVER_J
+在项目页面中 Settings —— Secrets 添加 MO_FISH_TOKEN、SERVER_J
 
 ## `token` 获取方式：
 ### MO_FISH_TOKEN 
@@ -26,3 +26,7 @@ Fork 本项目
 
 ## TODO
 - [x] mo.fish 签到
+
+## QA
+1) token 失效了怎么办？
+   去 Settings —— Secrets 更新相对应的 token，然后再产生一次 `commit` 
