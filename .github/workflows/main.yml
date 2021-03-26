@@ -21,5 +21,6 @@ jobs:
         run: npm install
       - run: node index.js
         env:
-          MO_FISH_TOKEN: ${{ secrets.MO_FISH_TOKEN }}
+          MO_FISH_USERNAME: ${{ secrets.MO_FISH_USERNAME }}
+          MO_FISH_PASSWORD: ${{ secrets.MO_FISH_PASSWORD }}
           SERVER_J: ${{ secrets.SERVER_J }}
