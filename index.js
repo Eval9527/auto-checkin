@@ -11,7 +11,9 @@ async function start() {
 
   await new MoFish().init()
 
-  await sendNotify('自动签到通知', Msg.getMsg())
+  console.log(Msg.getMsg())
+
+  // await sendNotify('自动签到通知', Msg.getMsg())
 }
 
 start()

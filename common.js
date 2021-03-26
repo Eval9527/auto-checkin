@@ -42,10 +42,23 @@ class Msg {
   }
 }
 
+class TitleMsg {
+  static msgList = [];
+
+  static push(info) {
+    Msg.msgList.push(info)
+  }
+
+  static getMsg() {
+    return Msg.msgList.join(', ')
+  }
+}
+
 
 module.exports = {
   getTime,
   formatResult,
   sendNotify,
   Msg,
+  TitleMsg,
 }
