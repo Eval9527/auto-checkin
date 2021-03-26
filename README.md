@@ -6,13 +6,11 @@
 ## 配置
 Fork 本项目
 
-在项目页面中 Settings —— Secrets 点击 `New secret` 添加 MO_FISH_TOKEN、SERVER_J
+在项目页面中 Settings —— Secrets 点击 `New secret` 添加 MO_FISH_USERNAME、MO_FISH_PASSWORD、SERVER_J
 
 ## `token` 获取方式：
-### MO_FISH_TOKEN 
-- mo.fish 的 token
-- 去 [鱼塘热榜](https://mo.fish/) 登陆之后去 Local Storage 中获取 token
-
+### MO_FISH_USERNAME、MO_FISH_PASSWORD
+- mo.fish 的 账号及密码
 
 ### SERVER_J
 - server酱的 token
@@ -34,5 +32,4 @@ Fork 本项目
 - [x] mo.fish 签到
 
 ## QA
-1) token 失效了怎么办？
-   去 Settings —— Secrets 更新相对应的 token，然后再产生一次 `commit` 
+1) 待定
