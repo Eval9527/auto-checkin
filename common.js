@@ -17,13 +17,17 @@ function getTime(type) {
 }
 
 function formatResult(taskName, taskInfo) {
-  return `任务：【${taskName}】已启动，${taskInfo}，时间：${getTime(1)}`
+  return `任务：【${taskName}】已启动，${taskInfo}`
 }
 
-async function sendNotify (text,desp) {
+function sendNotify (text,desp) {
+
+  if (!SERVER_J) return console.log("缺少 Server 酱 Token！")
+
   const url = `https://sc.ftqq.com/${SERVER_J}.send`
   const data = qs.stringify({ text, desp })
-  await axios.post(url, data).then(res=>{
+
+  axios.post(url, data).then(res=>{
     console.log(res.data)
   }).catch((err)=>{
     console.log(err)
@@ -38,7 +42,7 @@ class Msg {
   }
 
   static getMsg() {
-    return Msg.msgList.join('\n')
+    return Msg.msgList.join('\n\n')
   }
 }
 
