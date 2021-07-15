@@ -6,12 +6,19 @@
 ## 配置
 Fork 本项目
 
-在项目页面中 Settings —— Secrets 点击 `New secret` 添加 MO_FISH_USERNAME、MO_FISH_PASSWORD、SERVER_J
+在项目页面中 Settings —— Secrets 点击 `New secret` 添加一下信息：
+
+   MO_FISH_USERNAME
+   MO_FISH_PASSWORD
+   JUE_JIN_COOKIE
+   SERVER_J
 
 ## `token` 获取方式：
 ### MO_FISH_USERNAME、MO_FISH_PASSWORD
 - [mo.fish 鱼塘热榜](https://mo.fish/) 的账号及密码
 
+### JUE_JIN_COOKIE
+- [掘金]](https://juejin.cn/) 的 Cookie
 ### SERVER_J
 - server酱的 token
 - 去 [Server酱](http://sc.ftqq.com/?c=code) 获取 `SCKEY`
@@ -29,7 +36,8 @@ Fork 本项目
 剩下的具体看 `.github/workflows/main.yml`
 
 ## TODO
-- [x] mo.fish 签到
+- [x] mo.fish 鱼塘热榜签到
+- [x] JueJin 掘金签到
 
 ## QA
 1) 待定
