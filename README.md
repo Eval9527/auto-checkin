@@ -10,7 +10,7 @@ Fork 本项目
 
 ## `token` 获取方式：
 ### MO_FISH_USERNAME、MO_FISH_PASSWORD
-- mo.fish 的 账号及密码
+- [mo.fish 鱼塘热榜](https://mo.fish/) 的账号及密码
 
 ### SERVER_J
 - server酱的 token

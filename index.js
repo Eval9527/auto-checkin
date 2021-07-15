@@ -15,7 +15,7 @@ async function start() {
 
   console.log(Msg.getMsg())
 
-  sendNotify('自动签到通知', Msg.getMsg())
+  // sendNotify('自动签到通知', Msg.getMsg())
 }
 
 start()
