@@ -1,4 +1,4 @@
-定时签到，Github Actions 版
+# 定时签到，Github Actions 版（暂时屏蔽 Server 酱推送功能）
 
 ## 前置条件
 需要相对应项目的 token 以及用于推送的 Server 酱的 token
@@ -8,17 +8,17 @@ Fork 本项目
 
 在项目页面中 Settings —— Secrets 点击 `New secret` 添加一下信息：
 
-   MO_FISH_USERNAME
-   MO_FISH_PASSWORD
-   JUE_JIN_COOKIE
-   SERVER_J
+      MO_FISH_USERNAME
+      MO_FISH_PASSWORD
+      JUE_JIN_COOKIE
+      SERVER_J
 
 ## `token` 获取方式：
 ### MO_FISH_USERNAME、MO_FISH_PASSWORD
 - [mo.fish 鱼塘热榜](https://mo.fish/) 的账号及密码
 
 ### JUE_JIN_COOKIE
-- [掘金]](https://juejin.cn/) 的 Cookie
+- [掘金](https://juejin.cn/) 登陆后的 Cookie
 ### SERVER_J
 - server酱的 token
 - 去 [Server酱](http://sc.ftqq.com/?c=code) 获取 `SCKEY`
@@ -38,6 +38,8 @@ Fork 本项目
 ## TODO
 - [x] mo.fish 鱼塘热榜签到
 - [x] JueJin 掘金签到
+- [x] JueJin 掘金抽奖
+- [ ] 默认不推送签到结果，报错后发送新版 Server 酱
 
 ## QA
 1) 待定
