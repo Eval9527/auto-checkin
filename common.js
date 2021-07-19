@@ -17,7 +17,7 @@ function getTime(type) {
 }
 
 function formatResult(taskName, taskInfo) {
-  return `任务：【${taskName}】已启动，${taskInfo}`
+  return `任务：【${taskName}】已启动，${typeof taskInfo === 'string' ? taskInfo : JSON.stringify(taskInfo) }`
 }
 
 function sendNotify (text,desp) {

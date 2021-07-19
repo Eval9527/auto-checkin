@@ -28,7 +28,7 @@ class MoFish {
     // 获取 token 
     const token = await this.getToken()
     if (!token) {
-      return Msg.push(`账号密码异常！`)
+      return Msg.push(formatResult(this.getClassName(), `签到结果：账号密码异常！`))
     }
 
     // 设置 token
@@ -60,7 +60,7 @@ class MoFish {
         if (res.data.Code !== 0) {
           // TitleMsg.
         }
-        return res.data.Message
+        return '签到结果：' + res.data.Message
       }
     } catch (e) {
       return e
