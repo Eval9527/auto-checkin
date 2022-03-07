@@ -11,7 +11,7 @@ async function start() {
   Msg.push(`启动任务`)
 
   await new MoFish().init()
-  // await new JueJin().init()
+  // await new JueJin().init() // 暂停掘金自动签到
 
   console.log(Msg.getMsg())
 
